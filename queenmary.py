@@ -1,20 +1,24 @@
 import random
 
-#creates a Ceasar cypher for a string
 def encrypt(message):
-	'''
-	Given a substitution dictionary and a message return
-	the encrypted message.
-	'''
+    '''
+    Given a substitution dictionary and a message return
+    the encrypted message.
+    '''
+    encrypt_dict = {}
+    decrypt_dict = {}
 
-	# Construct a randomly generated code dictionary
+    # Construct a randomly generated code dictionary
+    alphabet = list("abcdefghijklmnopqrstuvwxyz")
+    for a, b in zip(alphabet, random.sample(alphabet, len(alphabet))):
+        # What code goes here?
+
 
 	# Encrypt the message
 
 	return key_dict, encrypted_message
 
-#decrypts a Ceasar cipher for a string
-def decrypt(sub_dict, encoded_message):
+def decrypt(key, encoded_message):
 	'''
 	Given a substitution dictionary and a message return
 	the decrypted message.
@@ -25,11 +29,11 @@ def decrypt(sub_dict, encoded_message):
 
 
 marrys_last_letters = """
-Sire, my brother-in-law, having by God's will, 
-for my sins I think, thrown myself into the power 
-of the Queen my cousin, at whose hands I have 
-suffered much for almost twenty years, I have finally 
-been condemned to death by her and her Estates. 
+sire, my brother-in-law, having by god's will, 
+for my sins i think, thrown myself into the power 
+of the queen my cousin, at whose hands i have 
+suffered much for almost twenty years, i have finally 
+been condemned to death by her and her estates. 
 """
 
 # Encrypt the message below here, output the encrypted message,
