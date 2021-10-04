@@ -1,16 +1,16 @@
 def encrypt(shift_amount, message):
-	'''
-	Given a shift amount and a message return
-	the encrypted message.
-	'''
-	pass
+    '''
+    Given a shift amount and a message return
+    the encrypted message.
+    '''
+    pass
 
 def decrypt(shift_amount, encoded_message):
-	'''
-	Given a shift amount and a message return
-	the decrypted message.
-	'''
-	pass
+    '''
+    Given a shift amount and a message return
+    the decrypted message.
+    '''
+    pass
 
 
 ###########################

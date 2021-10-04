@@ -14,16 +14,16 @@ def encrypt(message):
         # What code goes here?
 
 
-	# Encrypt the message
+    # Encrypt the message
 
-	return key_dict, encrypted_message
+    return key_dict, encrypted_message
 
 def decrypt(key, encoded_message):
-	'''
-	Given a substitution dictionary and a message return
-	the decrypted message.
-	'''
-	pass
+    '''
+    Given a substitution dictionary and a message return
+    the decrypted message.
+    '''
+    pass
 
 
 
